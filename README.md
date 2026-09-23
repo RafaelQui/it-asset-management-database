@@ -66,3 +66,31 @@ Future improvements could include:
 - `schema.sql` — creates the database and tables
 - `seed_data.sql` — inserts sample company data
 - `analysis_queries.sql` — portfolio-ready business queries
+
+## ER Diagram
+
+The database uses seven related tables to track employees, departments, IT assets, software, assignments, and support tickets.
+
+![IT Asset Management ER Diagram](screenshots/it-asset-management-erd.png)
+
+## Project Screenshots
+
+### Database Structure
+Seven relational tables make up the IT asset management system.
+
+![Database Structure](screenshots/database-structure.png)
+
+### Current Asset Assignments
+This query uses multiple JOINs to connect assets, employees, departments, and assignment records.
+
+![Current Asset Assignments](screenshots/current-asset-assignments.png)
+
+### Asset Inventory Summary
+This query uses COUNT, SUM, and GROUP BY to show the number and total purchase value of assets by status.
+
+![Asset Inventory Summary](screenshots/asset-inventory-summary.png)
+
+### Open Support Tickets
+This query displays unresolved support tickets and prioritizes them by severity.
+
+![Open Support Tickets](screenshots/open-support-tickets.png)
