@@ -66,13 +66,6 @@ Future improvements could include:
 - `schema.sql` — creates the database and tables
 - `seed_data.sql` — inserts sample company data
 - `analysis_queries.sql` — portfolio-ready business queries
-
-## ER Diagram
-
-The database uses seven related tables to track employees, departments, IT assets, software, assignments, and support tickets.
-
-![IT Asset Management ER Diagram](screenshots/it-asset-management-erd.png)
-
 ## Project Screenshots
 
 ### Database Structure
